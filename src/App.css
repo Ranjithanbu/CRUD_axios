@@ -1,0 +1,98 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+
+  font-style: oblique;
+}
+.shadow1{
+text-shadow:2px 2px 4px #000000 ;
+}
+#price  {
+padding-bottom: 6px;
+border-bottom:3px solid gray;
+
+}
+#price:hover{
+color: blue;
+font-weight: bold;
+border-bottom:   3px solid blue; 
+text-shadow: none;
+}
+#name:hover{
+   color: blue;
+font-weight: bold; 
+text-shadow: none;
+}
+#description:hover{
+ color:blue;
+ letter-spacing: 2px;
+text-shadow: none;
+ }
+ .bg-transparent{
+     background-color: transparent;
+ }
+
+
+#home:hover{
+    color: black !important;
+    padding-bottom: 0;
+    border-bottom: 2px solid black;
+      text-shadow: none;
+
+} 
+#Products:hover{
+    color: black !important;
+    padding-bottom: 0;
+    border-bottom: 2px solid black; 
+    text-shadow: none;
+} 
+#adj{
+    font-family:  "Pacifico",cursive;
+    font-style: oblique;
+    letter-spacing: 2px;
+text-shadow:2px 2px 4px #000000 ;
+}
+
+.footer{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+      
+}
+#editpage{
+    background-color: deepskyblue;
+  border: none; 
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  border-radius:2%;
+margin-top: 10vh;
+margin-left: auto;
+margin-right: auto; 
+ width: fit-content;   
+display: flex;
+justify-content: center;    
+align-content: center;
+align-items: center;
+  
+}
+.button1{
+  background-color:darkslategray;
+  margin-left:40%;
+  margin-bottom:2%;
+  color: white;
+  border-radius:10px;
+  border: none; 
+}
+.button2{
+    background-color:blue;
+  margin-left:45%;
+  margin-bottom:2%;
+  color: white;
+  border-radius:10px;
+  border: none; 
+}
+.edithead{
+    font-family:Pacifico; 
+    margin-left:30%;
+    margin-right: 30%;
+}
